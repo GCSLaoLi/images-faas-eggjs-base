@@ -1,0 +1,8 @@
+version: '3'
+services:
+  eggoss:
+    build: .
+    image: gcslaoli/faas-eggjs-base:lts-alpine
+  eggoss-aliyun:
+    build: .
+    image: registry.cn-beijing.aliyuncs.com/gcslaoli/faas-eggjs-base:lts-alpine
